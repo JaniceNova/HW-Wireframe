@@ -12,6 +12,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+    overflow: auto;
 }
 
 header, nav, section, aside, footer {
@@ -24,7 +26,8 @@ article {
     height: 160px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 h1, p {
     color: #777;
@@ -36,30 +39,36 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 7px;
+    padding-top: 10px;
 }
 p {
     height: 45px;
     margin-left: 20px;
     margin-right: 20px;
-   margin-top: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
 }
 
 
 
 section {
+    padding-top:30px;
     width: 495px;
    
 }
 aside {
     width: 445px;
+    padding-top:30px;
 }
 
 header {
+    padding-top:30px;
     height: 80px;
     margin-bottom: 10px;
 
 }
 nav {
+    padding-top:30px;
     height: 80px;
     margin-bottom: 20px;
 
@@ -77,6 +86,7 @@ aside {
 }
 
 footer {
+    padding-top:30px;
     height: 80px;
     margin-bottom: 10px;
     clear: both;
